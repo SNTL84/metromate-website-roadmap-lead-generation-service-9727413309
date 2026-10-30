@@ -29,19 +29,19 @@ For lead generation services, see the contact information in this README.
 
 <table>
 <tr>
-<td align="center"><a href="https://desidevloper.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20WEBSITE-DESIDEVLOPER.COM-0a0a0a?style=flat-square&logoColor=white" alt="Website"/></a></td>
-<td align="center"><a href="https://www.linkedin.com/in/sntl2784" target="_blank"><img src="https://img.shields.io/badge/in%20LINKEDIN-SNTL2784-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a></td>
-<td align="center"><a href="https://wa.me/919727413309" target="_blank"><img src="https://img.shields.io/badge/📱%20WHATSAPP-CHAT%20NOW-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a></td>
-<td align="center"><a href="https://github.com/SNTL84" target="_blank"><img src="https://img.shields.io/badge/🐙%20GITHUB-SNTL84-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a></td>
+<td align="center"><a href="https://desidevloper.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20WEBSITE-DESIDEVLOPER.COM-0a0a0a?style=flat-square&logoColor=white" alt="Website" /></a></td>
+<td align="center"><a href="https://www.linkedin.com/in/sntl2784" target="_blank"><img src="https://img.shields.io/badge/in%20LINKEDIN-SNTL2784-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a></td>
+<td align="center"><a href="https://wa.me/919727413309" target="_blank"><img src="https://img.shields.io/badge/📱%20WHATSAPP-CHAT%20NOW-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a></td>
+<td align="center"><a href="https://github.com/SNTL84" target="_blank"><img src="https://img.shields.io/badge/🐙%20GITHUB-SNTL84-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
 </tr>
 <tr>
-<td align="center"><a href="mailto:3goldenlotusroots@gmail.com"><img src="https://img.shields.io/badge/M%20EMAIL-3GOLDENLOTUSROOTS%40GMAIL.COM-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a></td>
-<td align="center"><a href="https://www.instagram.com/desibiztrade" target="_blank"><img src="https://img.shields.io/badge/📸%20INSTAGRAM-%40DESIBIZTRADE-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a></td>
-<td align="center"><a href="https://www.facebook.com/profile.php?id=61590405098559" target="_blank"><img src="https://img.shields.io/badge/f%20FACEBOOK-DESIBIZTRADE-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook"/></a></td>
-<td align="center"><a href="https://www.youtube.com/@SNTL84" target="_blank"><img src="https://img.shields.io/badge/▶%20YOUTUBE-%40SNTL84-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"/></a></td>
+<td align="center"><a href="mailto:3goldenlotusroots@gmail.com"><img src="https://img.shields.io/badge/M%20EMAIL-3GOLDENLOTUSROOTS%40GMAIL.COM-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a></td>
+<td align="center"><a href="https://www.instagram.com/desibiztrade" target="_blank"><img src="https://img.shields.io/badge/📸%20INSTAGRAM-%40DESIBIZTRADE-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a></td>
+<td align="center"><a href="https://www.facebook.com/profile.php?id=61590405098559" target="_blank"><img src="https://img.shields.io/badge/f%20FACEBOOK-DESIBIZTRADE-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a></td>
+<td align="center"><a href="https://www.youtube.com/@SNTL84" target="_blank"><img src="https://img.shields.io/badge/▶%20YOUTUBE-%40SNTL84-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a></td>
 </tr>
 <tr>
-<td colspan="4" align="center"><a href="https://aratt.ai/user/@desidevloper" target="_blank"><img src="https://img.shields.io/badge/🤖%20ARATT.AI-%40DESIDEVLOPER-00C9A7?style=flat-square&logoColor=white" alt="Aratt.ai"/></a></td>
+<td colspan="4" align="center"><a href="https://aratt.ai/user/@desidevloper" target="_blank"><img src="https://img.shields.io/badge/🤖%20ARATT.AI-%40DESIDEVLOPER-00C9A7?style=flat-square&logoColor=white" alt="Aratt.ai" /></a></td>
 </tr>
 </table>
 
@@ -64,7 +64,7 @@ For lead generation services, see the contact information in this README.
 ### 📋 Quick Start — Which File Should I Read?
 
 | Role | Start With | Then Read |
-|------|-----------|-----------| 
+|------|-----------|-----------|
 | 🆕 **New to project** | [`00_START_HERE.txt`](./reference/00_START_HERE.txt) | [`EXECUTIVE_SUMMARY.md`](./reference/EXECUTIVE_SUMMARY.md) |
 | 🔧 **Backend Developer** | [`MVP_Implementation_Guide.md`](./reference/MVP_Implementation_Guide.md) | [`Tragad_Soni_MVP_Depth_Reference.md`](./reference/Tragad_Soni_MVP_Depth_Reference.md) |
 | 🎨 **Frontend Developer** | [`QUICK_REFERENCE.md`](./reference/QUICK_REFERENCE.md) | [`MVP_Implementation_Guide.md`](./reference/MVP_Implementation_Guide.md) |
@@ -74,7 +74,7 @@ For lead generation services, see the contact information in this README.
 ### 📁 Reference Documents — Full List
 
 | # | File | Size | Purpose |
-|---|------|------|---------| 
+|---|------|------|---------|
 | 1 | [`00_START_HERE.txt`](./reference/00_START_HERE.txt) | 11 KB | Entry point — project overview, quick answers, contact |
 | 2 | [`EXECUTIVE_SUMMARY.md`](./reference/EXECUTIVE_SUMMARY.md) | 10 KB | Answers 4 key questions, 21-day action plan, success criteria |
 | 3 | [`MVP_Implementation_Guide.md`](./reference/MVP_Implementation_Guide.md) | 23 KB | **Primary technical spec** — full SQL schema, 11 DB tables, RLS, push notifications, 6 code patterns |
@@ -82,9 +82,55 @@ For lead generation services, see the contact information in this README.
 | 5 | [`Tragad_Soni_MVP_Depth_Reference.md`](./reference/Tragad_Soni_MVP_Depth_Reference.md) | 9.4 KB | 8-section structured reference — repos, DB schema, timeline, cost, team assignments |
 | 6 | [`INDEX.md`](./reference/INDEX.md) | 2.3 KB | Document map & recommended reading order |
 
+### 🧭 Active Project Execution Blueprint
+
+This repository is being used as the control layer for the business listing platform build. The current task is not to expand scope; it is to audit the current repository first, lock the MVP, document risks, and implement one verified milestone at a time.
+
+#### The project control rules
+
+1. Maintain one source of truth in the repository.
+2. Audit before changing code.
+3. Do not rebuild or rewrite working code without a documented reason.
+4. Record discoveries in the backlog before expanding scope.
+5. Separate verified working, partially working, broken, not implemented, and not tested items.
+6. Never mark a feature complete just because AI generated the code.
+7. Make a Git commit or backup before risky changes.
+8. Keep secrets, API tokens, passwords, and private user data out of Git.
+9. Work in small, testable milestones.
+10. The first release is for a reliable core directory, not every possible feature.
+
+#### Immediate task to be actioned
+
+- Inspect the repo and confirm the real working project, branch, and deployment status.
+- Run a read-only audit of the app structure, routes, database, integrations, auth, tests, and configuration.
+- Capture evidence in project-control documents instead of making assumptions.
+- Produce a verified inventory of the current state.
+- Define the MVP boundary and freeze non-essential features.
+- Prioritize a small set of tasks using P0, P1, P2, and P3 levels.
+- Build in dependency order, then test each feature before moving forward.
+- Keep the backlog and changelog synchronized with the implementation.
+
+#### Required project-control documents
+
+Create or update these files under `docs/project-control/` when the repo is ready:
+
+- `PROJECT_BLUEPRINT.md`
+- `CURRENT_STATE_AUDIT.md`
+- `FEATURE_STATUS.md`
+- `MASTER_BACKLOG.md`
+- `ARCHITECTURE.md`
+- `DECISIONS.md`
+- `TEST_STATUS.md`
+- `TECHNICAL_RISKS.md`
+- `LEARNING_BACKLOG.md`
+- `CHANGELOG.md`
+- `RELEASE_CHECKLIST.md`
+
+These documents are meant to keep the project measurable, disciplined, and safe without over-documenting before development resumes.
+
 ### ⚙️ Tech Stack at a Glance
 
-```
+```text
 Frontend  →  Next.js 14 + Tailwind CSS  →  Deployed on Vercel
 Backend   →  Supabase (PostgreSQL + Auth + Realtime + Edge Functions)
 Push      →  OneSignal (98%+ delivery)
@@ -96,7 +142,7 @@ Timeline  →  21 Days to MVP
 
 ### 🗓️ 21-Day MVP Sprint Overview
 
-```
+```text
 Week 1 (Days 1–7)   →  Foundation: DB schema · OAuth · Directory · Workspace pages
 Week 2 (Days 8–14)  →  Features: Push notifications · 2-level bot · WhatsApp forms · Ads
 Week 3 (Days 15–21) →  Launch: Optimization · Security audit · Load testing · Deploy
@@ -108,9 +154,9 @@ Week 3 (Days 15–21) →  Launch: Optimization · Security audit · Load testin
 
 ## 🏛️ What Is This Project?
 
-The **Tragad Soni Website** is a **community-first digital platform** for the **Tragad Soni (Goldsmith) community** of Gujarat, Maharashtra, and diaspora worldwide. This repository is the **complete, living roadmap** — from ideation to international launch.
+The **Tragad Soni Website** is a **community-first digital platform** for the **Tragad Soni (Goldsmith) community** of Gujarat, Maharashtra, and diaspora worldwide. This repository is the **complete, living roadmap** for the platform, from concept to launch.
 
-> *The Tragad Soni community, historically centered around Surat, Vadodara, Rajkot & Mumbai, has deep roots in goldsmithing, trade, and cultural heritage. This platform is being built to digitize and unify their legacy for generations to come.*
+> *The Tragad Soni community, historically centered around Surat, Vadodara, Rajkot & Mumbai, has deep roots in goldsmithing, trade, and cultural heritage. This platform is being built to digitize and unify their legacy for future generations to come.*
 
 ### 🎯 Mission
 
@@ -128,10 +174,10 @@ The **Tragad Soni Website** is a **community-first digital platform** for the **
 <div align="center">
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Optimised-SNTL-84-MetroMate-umbrella.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Optimised-SNTL-84-MetroMate-umbrella.jpg" alt="SNTL84 × MetroMate — B2B & B2C Lead Generation Services — Umbrella Brand" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Optimised-SNTL-84-MetroMate-umbrella.jpg" alt="SNTL84 × MetroMate — B2B & B2C Lead Generation Services Umbrella Brand" width="800" />
 </a>
 
-> **MetroMate B2B & B2C Services** is now a proud part of **SNTL 84 Digital Marketing Services** — powering trade directory listing, business discoverability, quality lead generation, targeted outreach & growth.
+> **MetroMate B2B & B2C Services** is now a proud part of **SNTL 84 Digital Marketing Services** — powering trade directory listing, business discoverability, quality lead generation, targeted outreach and growth.
 
 </div>
 
@@ -158,12 +204,13 @@ The **Tragad Soni Website** is a **community-first digital platform** for the **
 <br />
 
 ---
+
 Lead generation services: lead-generation-service-9727413309.
 
 ### 📞 2. One Call. All Solutions. — 203 Services
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Lead-Generation-Service-Provider.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Lead-Generation-Service-Provider.jpg" alt="MetroMate — One Call All Solutions — 203 Services — Residential, Commercial & Corporate" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Lead-Generation-Service-Provider.jpg" alt="MetroMate — One Call All Solutions — 203 Services across Residential, Commercial & Corporate" width="800" />
 </a>
 
 > 📞 **MetroMate · One Call. All Solutions.** — 203 services across Residential, Commercial & Corporate segments.
@@ -176,7 +223,7 @@ Lead generation services: lead-generation-service-9727413309.
 ### 🔧 3. MetroMate 3-in-1 Services
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-3in1-service-github-optimized.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-3in1-service-github-optimized.jpg" alt="MetroMate 3-in-1 Service Bundle — B2B, B2C & Real Estate — Powered by SNTL84" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-3in1-service-github-optimized.jpg" alt="MetroMate 3-in-1 Service Bundle — B2B, B2C & Real Estate" width="800" />
 </a>
 
 > 🔧 **MetroMate 3-in-1 Service Bundle** — B2B · B2C · Real Estate, all under one roof.
@@ -189,7 +236,7 @@ Lead generation services: lead-generation-service-9727413309.
 ### 🧾 4. Tax Consultation — Gujarati
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Tax-Consultation-Gujarati-github-optimized.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Tax-Consultation-Gujarati-github-optimized.jpg" alt="MetroMate Tax Consultation — Gujarati Language — GST, ITR, Business Tax — Powered by SNTL84" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Tax-Consultation-Gujarati-github-optimized.jpg" alt="MetroMate Tax Consultation — Gujarati Language — GST, ITR, Business Tax Filing" width="800" />
 </a>
 
 > 🧾 **MetroMate Tax Consultation** — GST · ITR · Business Tax Filing in Gujarati.
@@ -202,7 +249,7 @@ Lead generation services: lead-generation-service-9727413309.
 ### 👥 5. Placement & Recruitment Services
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Recruitment-servicespng.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Recruitment-servicespng.jpg" alt="MetroMate — Placement & Recruitment Services — IT & Non-IT Staffing powered by SNTL 84" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/MetroMate-Recruitment-servicespng.jpg" alt="MetroMate — Placement & Recruitment Services — IT & Non-IT Staffing" width="800" />
 </a>
 
 > 👥 **MetroMate Placement Services** powered by SNTL 84
@@ -216,7 +263,7 @@ Lead generation services: lead-generation-service-9727413309.
 ### 🏭 6. FMCG Franchise Opportunity
 
 <a href="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Insta-Optimized-Fmcg-franchise-github-optimized.jpg" target="_blank">
-<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Insta-Optimized-Fmcg-franchise-github-optimized.jpg" alt="MetroMate — FMCG Franchise Opportunity — B2B Trade — Powered by SNTL84 DesiBizTrade" width="800" />
+<img src="https://raw.githubusercontent.com/SNTL84/Metromate-Website-Roadmap/main/assets/Insta-Optimized-Fmcg-franchise-github-optimized.jpg" alt="MetroMate — FMCG Franchise Opportunity — B2B Trade Network" width="800" />
 </a>
 
 > 🏭 **FMCG Franchise Opportunity** — distribution & franchise opportunities for the B2B trade network.
@@ -285,19 +332,19 @@ Lead generation services: lead-generation-service-9727413309.
 
 <table>
 <tr>
-<td align="center"><a href="https://desidevloper.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20WEBSITE-DESIDEVLOPER.COM-0a0a0a?style=flat-square&logoColor=white" alt="Website"/></a></td>
-<td align="center"><a href="https://www.linkedin.com/in/sntl2784" target="_blank"><img src="https://img.shields.io/badge/in%20LINKEDIN-SNTL2784-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a></td>
-<td align="center"><a href="https://wa.me/919727413309" target="_blank"><img src="https://img.shields.io/badge/📱%20WHATSAPP-CHAT%20NOW-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a></td>
-<td align="center"><a href="https://github.com/SNTL84" target="_blank"><img src="https://img.shields.io/badge/🐙%20GITHUB-SNTL84-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a></td>
+<td align="center"><a href="https://desidevloper.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20WEBSITE-DESIDEVLOPER.COM-0a0a0a?style=flat-square&logoColor=white" alt="Website" /></a></td>
+<td align="center"><a href="https://www.linkedin.com/in/sntl2784" target="_blank"><img src="https://img.shields.io/badge/in%20LINKEDIN-SNTL2784-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a></td>
+<td align="center"><a href="https://wa.me/919727413309" target="_blank"><img src="https://img.shields.io/badge/📱%20WHATSAPP-CHAT%20NOW-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a></td>
+<td align="center"><a href="https://github.com/SNTL84" target="_blank"><img src="https://img.shields.io/badge/🐙%20GITHUB-SNTL84-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
 </tr>
 <tr>
-<td align="center"><a href="mailto:3goldenlotusroots@gmail.com"><img src="https://img.shields.io/badge/M%20EMAIL-3GOLDENLOTUSROOTS%40GMAIL.COM-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a></td>
-<td align="center"><a href="https://www.instagram.com/desibiztrade" target="_blank"><img src="https://img.shields.io/badge/📸%20INSTAGRAM-%40DESIBIZTRADE-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a></td>
-<td align="center"><a href="https://www.facebook.com/profile.php?id=61590405098559" target="_blank"><img src="https://img.shields.io/badge/f%20FACEBOOK-DESIBIZTRADE-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook"/></a></td>
-<td align="center"><a href="https://www.youtube.com/@SNTL84" target="_blank"><img src="https://img.shields.io/badge/▶%20YOUTUBE-%40SNTL84-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"/></a></td>
+<td align="center"><a href="mailto:3goldenlotusroots@gmail.com"><img src="https://img.shields.io/badge/M%20EMAIL-3GOLDENLOTUSROOTS%40GMAIL.COM-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a></td>
+<td align="center"><a href="https://www.instagram.com/desibiztrade" target="_blank"><img src="https://img.shields.io/badge/📸%20INSTAGRAM-%40DESIBIZTRADE-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a></td>
+<td align="center"><a href="https://www.facebook.com/profile.php?id=61590405098559" target="_blank"><img src="https://img.shields.io/badge/f%20FACEBOOK-DESIBIZTRADE-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a></td>
+<td align="center"><a href="https://www.youtube.com/@SNTL84" target="_blank"><img src="https://img.shields.io/badge/▶%20YOUTUBE-%40SNTL84-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a></td>
 </tr>
 <tr>
-<td colspan="4" align="center"><a href="https://aratt.ai/user/@desidevloper" target="_blank"><img src="https://img.shields.io/badge/🤖%20ARATT.AI-%40DESIDEVLOPER-00C9A7?style=flat-square&logoColor=white" alt="Aratt.ai"/></a></td>
+<td colspan="4" align="center"><a href="https://aratt.ai/user/@desidevloper" target="_blank"><img src="https://img.shields.io/badge/🤖%20ARATT.AI-%40DESIDEVLOPER-00C9A7?style=flat-square&logoColor=white" alt="Aratt.ai" /></a></td>
 </tr>
 </table>
 
@@ -311,14 +358,13 @@ Lead generation services: lead-generation-service-9727413309.
 
 </div>
 
-
 ---
 
 ## 🏆 Flagship Case Study — Skill Level Proof of Work
 
 > **This roadmap is not just a plan — it's a living system.** Every real-world project undertaken under the MetroMate / SNTL84 umbrella gets documented as a standalone case-study repo, cross-linked here, and pushed live across social channels for prospective clients and learners to study.
 
-[![Case Study](https://img.shields.io/badge/Case%20Study-Mahadev%20Restaurant%20Pal%2C%20Surat-brightgreen?style=for-the-badge)](https://github.com/SNTL84/metromate-mahadev-restaurant-pal-surat-case-study) [![Skill Level](https://img.shields.io/badge/Skill%20Level-Business%20Setup%20%7C%20POS%20%7C%20Delivery%20Onboarding-blue?style=for-the-badge)](https://github.com/SNTL84/metromate-mahadev-restaurant-pal-surat-case-study) [![Delivered](https://img.shields.io/badge/Delivered-30%20Days-orange?style=for-the-badge)](https://github.com/SNTL84/metromate-mahadev-restaurant-pal-surat-case-study)
+[![Case Study](https://img.shields.io/badge/Case%20Study-Mahadev%20Restaurant%20Pal%2C%20Surat-brightgreen?style=for-the-badge)](https://github.com/SNTL84/metromate-mahadev-restaurant-pal-surat-case-study)
 
 ### 📈 [Mahadev Restaurant — New Branch Launch (Pal, Surat)](https://github.com/SNTL84/metromate-mahadev-restaurant-pal-surat-case-study)
 
@@ -340,7 +386,7 @@ This case study repo demonstrates the **variety of hands-on experience** and **b
 
 > Once a project is undertaken, it is **not archived quietly** — it is pushed live, in real time, across every SNTL84 channel for prospective clients and learners:
 
-```
+```text
 Project Undertaken
       │
       ▼
@@ -378,7 +424,6 @@ These Facebook page references are maintained for future MetroMate / DesiDevlope
 | 11 | Mads Direct | https://www.facebook.com/1379825511874679 | Direct Services |
 | 12 | Mad-icare | https://www.facebook.com/1390724564114913 | Healthcare / Care Services |
 
-
 # ❓ Frequently Asked Questions — Metromate-Website-Roadmap
 
 > Detailed answers about the **Tragad Soni Community Website Roadmap** and the **SNTL84 × MetroMate** services ecosystem. For the project overview, see the [README](README.md).
@@ -394,16 +439,17 @@ These Facebook page references are maintained for future MetroMate / DesiDevlope
 - [G. MetroMate Services](#g-metromate-services) (Q31–Q37)
 - [H. Case Study and Proof of Work](#h-case-study-and-proof-of-work) (Q38–Q41)
 - [I. Maintenance and Support](#i-maintenance-and-support) (Q42–Q45)
+- [J. Project Control and Execution Workflow](#j-project-control-and-execution-workflow) (Q46–Q52)
 
 ---
 
 ## A. About the Project
 
 **1. What is this repository?**
-It is the complete, living roadmap for the **Tragad Soni Website**, a community-first digital platform for the Tragad Soni (Goldsmith) community. The repo covers the journey from ideation to international launch. It also holds the MetroMate B2B/B2C services material and the SNTL84 brand assets.
+It is the complete, living roadmap for the **Tragad Soni Website**, a community-first digital platform for the Tragad Soni (Goldsmith) community. The repo covers the journey from ideation to implementation planning and project control.
 
 **2. Why is the repo called "Metromate" when the README is about Tragad Soni?**
-The repo is a shared home for two linked efforts: the Tragad Soni community platform, and the MetroMate services ecosystem run by SNTL84. The README positions the Tragad Soni website as **Layer 1** of the SNTL84 Growth Infrastructure Node, and MetroMate services sit in Layer 2 (Service Engine). Some badges and links still point to the older repo name, `Tragad-Soni-Website-Roadmap`.
+The repo is a shared home for two linked efforts: the Tragad Soni community platform, and the MetroMate services ecosystem run by SNTL84. The README positions the Tragad Soni website as Layer 1 while MetroMate is the commercial growth engine that supports service discovery and lead generation.
 
 **3. Who is the community this platform serves?**
 The Tragad Soni goldsmith community of Gujarat, Maharashtra and the worldwide diaspora. Historically the community is centred around Surat, Vadodara, Rajkot and Mumbai.
@@ -423,18 +469,7 @@ SNTL84 (Milan), based in Surat, Gujarat, India. The project lead contact is on W
 MIT. The full text is in the [`LICENSE`](LICENSE) file, and PRs are welcome.
 
 **7. What is the current status?**
-As of the README's June 2026 progress snapshot:
-
-| Phase | Progress |
-|---|---|
-| Phase 1 · Planning & Setup | 75% |
-| Phase 2 · Design & Branding | 20% |
-| Phase 3 · Development | 0% |
-| Phase 4 · Testing & QA | 0% |
-| Phase 5 · Launch & SEO | 0% |
-| Phase 6 · Mobile App / PWA | Planned for 2027 |
-
-The community website itself is therefore still in planning and design, not yet live.
+As of the README's progress snapshot, the community website is still primarily in planning and design, with the broader MetroMate ecosystem acting as the service and growth layer around the project.
 
 ---
 
@@ -447,7 +482,7 @@ The community website itself is therefore still in planning and design, not yet 
 | `reference/` | Developer documentation (schema, guides, architecture) |
 | `MetroMate/` | B2B and B2C supplier registration form, services config and README |
 | `MetroMate Subscription/` | Subscription-related material for MetroMate |
-| `sprint-sheets/` | 14 sprint and section Markdown sheets |
+| `sprint-sheets/` | Sprint and planning markdown sheets |
 | `backend-architecture-study/` | Backend research and tech stack notes |
 
 **9. What is `MetroMate/`?**
@@ -460,7 +495,7 @@ They represent different roadmap and registration prototypes. The roadmap keeps 
 The main service catalogue is in `MetroMate/services/MetroMate_services_v4.csv`, referenced from the README and roadmap.
 
 **12. Can this repository be used by another developer?**
-Yes. Start with `reference/00_START_HERE.txt`, then follow the role-based reading guide above. The roadmap and reference documents are intended to make handoff practical.
+Yes. Start with `reference/00_START_HERE.txt`, then follow the role-based reading guide in the README. The roadmap and reference documents are intended to make handoff practical.
 
 ---
 
@@ -495,7 +530,7 @@ The documented architecture uses OneSignal for push notifications and WhatsApp B
 The current reference architecture describes 11 tables, indexes and Row-Level Security policies for controlled access.
 
 **21. What automation tools are planned?**
-n8n, Puppeteer, Playwright, Google Sheets API, Forms API, webhooks and scheduled tasks are included in the automation layer.
+The automation layer includes n8n, Puppeteer, Playwright, Google Sheets API, Forms API, webhooks and scheduled tasks.
 
 **22. Is analytics included?**
 Yes. GitHub Insights and planned Google Analytics are referenced, alongside lead-pipeline and WhatsApp measurement.
@@ -555,7 +590,7 @@ The intended flow is enquiry → WhatsApp alert → CRM/lead pipeline → follow
 Social channels are treated as distribution and discovery layers that amplify live projects, service offers and case studies.
 
 **37. How are the 12 Facebook pages connected to MetroMate?**
-The current Facebook reference directory contains 12 pages covering real estate, personal branding, MetroMate, online services, technology, catering, business pages, direct services and healthcare/care services. These are maintained as future website cross-linking and social-distribution references and should be verified before production integration.
+The current Facebook reference directory contains 12 pages covering real estate, the personal brand, MetroMate, Mads Online, Mad-Tech, catering, business pages, direct services and healthcare/care services.
 
 ---
 
@@ -571,7 +606,7 @@ They turn the roadmap into a living proof-of-work system, allowing prospective c
 Only verified project records, analytics, screenshots, platform data, client-approved material and auditable outcomes should be presented as performance evidence.
 
 **41. How are the MetroMate and Mads Facebook pages used in this roadmap?**
-The current reference set contains 12 Facebook pages covering real estate, the personal brand, MetroMate, Mads Online, Mad-Tech, catering, business pages, direct services and healthcare/care services. These pages provide future website cross-linking, social distribution and reference points for service-specific discovery. Pages and links should be verified before each production integration.
+The current reference set contains 12 Facebook pages covering real estate, the personal brand, MetroMate, Mads Online, Mad-Tech, catering, business pages, direct services and healthcare/care services.
 
 ---
 
@@ -588,6 +623,31 @@ Make focused changes, preserve working assets, keep documentation synchronized w
 
 **45. How can a client or contributor request support?**
 Use the repository issues/PR workflow or contact the project lead through the WhatsApp contact listed in the README.
+
+---
+
+## J. Project Control and Execution Workflow
+
+**46. What is the immediate task?**
+The immediate task is to audit the current repository before changing code, confirm the real working project, document the current state, freeze the MVP, and then implement only the next approved milestone.
+
+**47. What are the non-negotiable rules?**
+The work must be evidence-driven, not assumption-driven. Maintain one source of truth, preserve working code, avoid unnecessary rewrites, protect secrets, keep documentation synchronized with development, and update the backlog before new scope is added.
+
+**48. What is the MVP boundary?**
+The MVP is the smallest realistic product that provides value to both visitors and listed businesses. It includes business discovery, search/browse, business profile management, profile validation, WhatsApp contact flow, language selection, responsive design, basic reliability, and minimum moderation/security controls.
+
+**49. What project-control documents are required?**
+At minimum, the project should maintain a project blueprint, audit log, feature status sheet, technical risk file, backlog, changelog, decisions log, learning backlog, architecture overview, and release checklist.
+
+**50. What is the correct work order?**
+The correct flow is: inventory and audit → current-state documentation → define MVP and priority → backlog and risk review → build one task at a time → verify and document evidence → commit stable work → proceed to the next independent milestone.
+
+**51. How are feature states tracked?**
+Use one consistent status label for every task: NOT STARTED, IN PROGRESS, BLOCKED, IMPLEMENTED — NOT VERIFIED, PARTIALLY VERIFIED, VERIFIED COMPLETE, DEFERRED, or OUT OF SCOPE.
+
+**52. What should be done if a new idea appears?**
+Write it into the backlog or learning backlog, classify it as P0/P1/P2/P3 or learning-only, check whether it is already covered, and do not implement it unless it is required for a genuine blocker or core MVP dependency.
 
 ---
 
@@ -608,7 +668,7 @@ Use the repository issues/PR workflow or contact the project lead through the Wh
 
 ## 🔐 Governance
 
-This repository is designed for professional client delivery. Protect personal/payment information, validate links before publication, obtain client approval for public assets, and publish performance evidence only when it can be verified.
+This repository is designed for professional client delivery. Protect personal/payment information, validate links before publication, obtain client approval for public assets, and publish performance claims only when supported by evidence.
 
 ---
 
@@ -617,6 +677,24 @@ This repository is designed for professional client delivery. Protect personal/p
 **Collab What’s Costing You Time.**  
 **SNTL 84 · Agentic AI Workflow Professional**
 
-🌐 [desidevloper.com](https://desidevloper.com) · 💬 [wa.me/919727413309](https://wa.me/919727413309) · 💼 [linkedin.com/in/sntl2784](https://linkedin.com/in/sntl2784) · 💻 [github.com/SNTL84](https://github.com/SNTL84) · 📸 [instagram.com/desibiztrade](https://www.instagram.com/desibiztrade)
+🌐 [desidevloper.com](https://desidevloper.com) · 💬 [wa.me/919727413309](https://wa.me/919727413309) · 💼 [linkedin.com/in/sntl2784](https://linkedin.com/in/sntl2784) · 💻 [github.com/SNTL84](https://github.com/SNTL84)
 
 </div>
+
+---
+
+## ✅ Project Execution Summary
+
+This repository should be treated as a disciplined business-listing roadmap and execution system, not as a loose collection of ideas. The current objective is to audit the real state of the project, document what exists, decide on the MVP, prioritize the backlog, and implement the highest-value tasks in a controlled sequence.
+
+The branch, app structure, routes, data model, integrations, and tests must be verified before any large feature work begins. All discoveries belong in the backlog, and only the approved next task should be acted upon.
+
+For the next stage, the work must be handled in this order:
+
+1. Read-only audit and inventory
+2. Project control documents and backlog update
+3. MVP freeze and task prioritization
+4. Implementation of the first approved milestone
+5. Verification, documentation, and release readiness review
+
+This approach keeps the project stable, auditable, and launch-ready without unnecessary rewrites or scope expansion.
