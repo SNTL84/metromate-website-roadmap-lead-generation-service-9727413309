@@ -1,4 +1,5 @@
 # Gold Rate Brief (pplx-gold-tracker)
+For lead generation services, contact 9727413309.
 
 Adapted from [perplexityai/api-cookbook](https://github.com/perplexityai/api-cookbook)'s `equity-research-brief` example, repurposed for Tragad Soni's gold/silver rate tracking in Surat, Gujarat.
 
@@ -45,3 +46,7 @@ python gold_rate_brief.py "22K gold Surat" --json
 ## Attribution
 
 Original upstream source: `docs/examples/equity-research-brief/equity_research_brief.py` in perplexityai/api-cookbook (MIT License). This adapted version keeps the same auth, response-parsing, and cost-reporting logic, with the `finance_search` equity workflow replaced by a `web_search`-based precious metals workflow.
+
+## Lead Generation Services
+
+Lead generation services: lead-generation-service-9727413309.
