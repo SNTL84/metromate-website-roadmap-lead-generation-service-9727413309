@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MetroMate | 30 Priority Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>MetroMate | 30 Priority Services at Launch</title>
+  <meta name="description" content="MetroMate - One Number Unlimited Solutions. 30 Priority Services at Launch." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #050d18;
-      --bg-2: #081a2d;
-      --panel: rgba(8, 17, 29, 0.92);
-      --panel-2: rgba(14, 25, 40, 0.9);
-      --card: rgba(10, 15, 22, 0.96);
-      --line: #ff8f1c;
-      --line-soft: rgba(255, 143, 28, 0.7);
-      --text: #f4f6fb;
-      --muted: #c7d3ea;
-      --gold: #ffb33a;
-      --orange: #ff8b20;
-      --orange-deep: #ff6f00;
-      --orange-soft: rgba(255, 143, 28, 0.2);
-      --blue: #0c5ef0;
-      --shadow: rgba(0, 0, 0, 0.45);
+      --bg: #040b16;
+      --bg-2: #071724;
+      --bg-3: #0b1f33;
+      --panel: rgba(10,18,28,0.94);
+      --panel-2: rgba(14,24,39,0.95);
+      --card: rgba(12,18,29,0.96);
+      --orange: #ff8b1e;
+      --orange-2: #ffb24d;
+      --orange-3: #ff6a00;
+      --orange-soft: rgba(255, 139, 30, 0.18);
+      --line: rgba(255, 141, 30, 0.75);
+      --text: #f8fbff;
+      --muted: #d8e5ff;
+      --muted-2: #c8d4ed;
+      --deep: #050d18;
+      --shadow: rgba(0,0,0,0.5);
     }
 
     * { box-sizing: border-box; }
@@ -31,7 +33,7 @@
     html, body {
       margin: 0;
       min-height: 100%;
-      background: #020b15;
+      background: var(--bg);
       color: var(--text);
       font-family: 'Poppins', sans-serif;
     }
@@ -39,20 +41,23 @@
     body {
       display: flex;
       justify-content: center;
-      padding: 18px;
+      padding: 14px;
+      background:
+        radial-gradient(circle at 50% 17%, rgba(10, 55, 92, 0.9), transparent 22%),
+        radial-gradient(circle at 50% 90%, rgba(255,140,30,0.11), transparent 18%),
+        linear-gradient(180deg, #040b16 0%, #05131f 20%, #020a12 100%);
     }
 
     .poster {
       position: relative;
       width: 100%;
       max-width: 1440px;
-      min-height: 1950px;
+      min-height: 1960px;
       background:
-        radial-gradient(circle at 50% 20%, rgba(11, 58, 100, 0.75), transparent 22%),
-        linear-gradient(180deg, #070d17 0%, #020b15 28%, #030b17 100%);
-      border: 3px solid rgba(255, 146, 34, 0.35);
-      box-shadow: inset 0 0 0 1px rgba(255, 146, 34, 0.15), 0 25px 90px rgba(0, 0, 0, 0.55);
+        linear-gradient(180deg, rgba(4, 12, 18, 0.95) 0%, rgba(5, 9, 18, 0.98) 18%, rgba(2, 9, 18, 1) 100%);
+      border: 2px solid rgba(255, 149, 34, 0.35);
       overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.62);
     }
 
     .poster::before {
@@ -60,140 +65,85 @@
       position: absolute;
       inset: 0;
       background:
-        linear-gradient(180deg, rgba(9, 18, 30, 0) 0%, rgba(9, 18, 30, 0.16) 100%),
-        repeating-linear-gradient(
-          to bottom,
-          rgba(255,255,255,0.02),
-          rgba(255,255,255,0.02) 2px,
-          transparent 2px,
-          transparent 5px
-        );
+        linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)),
+        repeating-linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0.025) 2px, transparent 2px, transparent 6px);
       pointer-events: none;
-    }
-
-    .city-bg {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 260px;
-      background:
-        linear-gradient(180deg, rgba(3,9,15,0) 0%, rgba(7,18,30,0.45) 20%, rgba(8,17,29,0.9) 100%),
-        linear-gradient(90deg, rgba(255,165,58,0.18), rgba(255,165,58,0.03), rgba(0,0,0,0));
-      overflow: hidden;
-      opacity: 0.9;
-    }
-
-    .city-bg::before,
-    .city-bg::after {
-      content: "";
-      position: absolute;
-      left: -5%;
-      right: -5%;
-      bottom: 0;
-      height: 70%;
-      background-repeat: repeat-x;
-      background-size: 160px 100%;
-      opacity: 0.95;
-    }
-
-    .city-bg::before {
-      background-image:
-        linear-gradient(90deg, transparent 0 10%, rgba(255, 158, 58, 0.12) 10% 12%, transparent 12% 18%, rgba(255, 158, 58, 0.14) 18% 20%, transparent 20% 100%),
-        linear-gradient(180deg, transparent 0 44%, rgba(255,140,23,0.08) 44% 100%);
-      clip-path: polygon(0 100%, 0 58%, 6% 58%, 6% 30%, 10% 30%, 10% 55%, 16% 55%, 16% 25%, 22% 25%, 22% 63%, 27% 63%, 27% 35%, 34% 35%, 34% 68%, 39% 68%, 39% 22%, 46% 22%, 46% 62%, 53% 62%, 53% 18%, 59% 18%, 59% 60%, 65% 60%, 65% 28%, 70% 28%, 70% 64%, 76% 64%, 76% 37%, 82% 37%, 82% 66%, 88% 66%, 88% 26%, 93% 26%, 93% 58%, 100% 58%, 100% 100%);
-    }
-
-    .city-bg::after {
-      background-image:
-        linear-gradient(180deg, rgba(255,166,61,0.54) 0 3px, transparent 3px),
-        linear-gradient(90deg, rgba(255,166,61,0.54) 0 3px, transparent 3px);
-      background-size: 90px 35px;
-      background-position: bottom left;
-      opacity: 0.5;
-      filter: blur(1px);
     }
 
     .content {
       position: relative;
-      z-index: 1;
-      padding: 24px 30px 40px;
+      z-index: 2;
+      padding: 22px 26px 28px;
     }
 
     .top-row {
       display: grid;
-      grid-template-columns: 1.75fr 1.2fr 1fr;
+      grid-template-columns: 1.65fr 1.15fr 1.1fr;
       gap: 18px;
       align-items: start;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
 
-    .brand-wrap {
-      position: relative;
-      min-height: 170px;
+    .brand-block {
+      min-height: 150px;
+      padding-top: 4px;
     }
 
     .brand {
       margin: 0;
       font-weight: 900;
-      font-size: clamp(4.7rem, 5.6vw, 10rem);
-      line-height: 0.76;
-      letter-spacing: -0.13em;
+      font-size: clamp(5.1rem, 5.6vw, 9.5rem);
+      line-height: 0.72;
+      letter-spacing: -0.12em;
       text-transform: uppercase;
-      color: #f6f4f1;
-      text-shadow: 0 0 15px rgba(255,255,255,0.15), 0 6px 0 rgba(12, 12, 12, 0.8);
-      transform: scaleY(0.9);
+      color: #f4f4f4;
+      text-shadow: 0 6px 0 rgba(0,0,0,0.72);
+      transform: scaleY(0.88);
     }
 
-    .brand span {
+    .brand .second {
       display: block;
       color: var(--orange);
-      text-shadow: 0 0 18px rgba(255, 157, 65, 0.38);
+      text-shadow: 0 0 22px rgba(255, 145, 42, 0.4);
     }
 
-    .headline {
-      margin-top: 8px;
+    .tagline {
+      margin-top: 10px;
       display: inline-block;
-      padding: 8px 16px 7px;
+      padding: 9px 18px 8px;
+      background: rgba(255, 141, 30, 0.08);
+      border: 2px solid rgba(255, 141, 30, 0.7);
       border-radius: 12px;
-      border: 2px solid rgba(255, 151, 38, 0.7);
-      background: rgba(255, 146, 34, 0.12);
-      font-size: 0.92rem;
+      color: #ffbe67;
+      font-size: 0.78rem;
       font-weight: 800;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.09em;
       text-transform: uppercase;
-      color: #ffb74d;
-      box-shadow: inset 0 0 18px rgba(255, 146, 34, 0.12);
+      box-shadow: inset 0 0 18px rgba(255, 141, 30, 0.08);
     }
 
-    .top-cta {
-      padding-top: 12px;
-      justify-self: center;
-      width: 100%;
-      max-width: 420px;
+    .promo-box {
+      position: relative;
       min-height: 160px;
-      border-radius: 18px;
-      background: linear-gradient(180deg, rgba(255,149,35,0.18), rgba(255,149,35,0.08));
-      border: 2px solid rgba(255, 149, 35, 0.4);
-      box-shadow: inset 0 0 22px rgba(255, 149, 35, 0.08);
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--text);
-      font-weight: 800;
-      text-transform: uppercase;
       text-align: center;
-      position: relative;
+      padding: 16px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(255, 139, 30, 0.12), rgba(12, 20, 31, 0.9));
+      border: 2px solid rgba(255, 141, 30, 0.7);
+      box-shadow: inset 0 0 20px rgba(255, 141, 30, 0.08), 0 10px 18px rgba(0,0,0,0.25);
       overflow: hidden;
     }
 
-    .top-cta::before {
+    .promo-box::before {
       content: "";
       position: absolute;
       inset: 0;
       background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-      transform: translateX(-100%);
-      animation: shimmer 4s infinite ease-in-out;
+      transform: translateX(-120%);
+      animation: shimmer 5s infinite ease-in-out;
     }
 
     @keyframes shimmer {
@@ -202,353 +152,367 @@
       100% { transform: translateX(120%); }
     }
 
-    .top-cta-inner {
+    .promo-inner {
       position: relative;
       z-index: 1;
-      font-size: clamp(1.1rem, 1.7vw, 2rem);
-      letter-spacing: 0.04em;
-      line-height: 1.25;
-      padding: 12px 22px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      line-height: 1.1;
+      color: #fff7f0;
+      font-size: clamp(1.2rem, 1.9vw, 2.2rem);
     }
 
-    .top-cta-inner strong {
+    .promo-inner strong {
       display: block;
-      color: #ffb154;
-      font-size: 1.42em;
-      margin-bottom: 8px;
+      color: #ffb668;
+      font-size: 1.25em;
+      margin-bottom: 4px;
     }
 
-    .top-tag {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
+    .phone-box {
+      margin-left: auto;
       width: 100%;
       max-width: 350px;
-      margin-left: auto;
-    }
-
-    .mini-panel {
       border-radius: 18px;
-      background: linear-gradient(180deg, rgba(12, 20, 32, 0.95), rgba(10, 16, 24, 0.9));
-      border: 2px solid rgba(255, 151, 38, 0.7);
-      box-shadow: 0 0 0 1px rgba(255, 151, 38, 0.2), 0 18px 28px rgba(0,0,0,0.25);
-      padding: 18px 16px 14px;
+      background: linear-gradient(180deg, rgba(255, 139, 30, 0.12), rgba(9, 18, 28, 0.96));
+      border: 2px solid rgba(255, 141, 30, 0.72);
+      padding: 18px 16px 12px;
+      box-shadow: 0 18px 30px rgba(0,0,0,0.24);
     }
 
-    .mini-panel.phone {
-      background: linear-gradient(180deg, rgba(255, 146, 34, 0.1), rgba(9, 15, 22, 0.94));
-    }
-
-    .mini-label {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #ffb96a;
-      font-weight: 800;
-      margin-bottom: 8px;
+    .phone-tag {
       text-align: center;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #ffb667;
+      margin-bottom: 8px;
     }
 
-    .mini-number {
-      font-size: clamp(2.1rem, 2.5vw, 3.4rem);
+    .phone-number {
+      text-align: center;
       font-weight: 900;
+      font-size: clamp(2.2rem, 2.7vw, 3.3rem);
       line-height: 1;
       letter-spacing: 0.02em;
-      text-align: center;
-      color: #fff7f0;
+      color: #fffaf3;
+      text-shadow: 0 0 20px rgba(255, 153, 70, 0.18);
     }
 
-    .mini-labels {
+    .phone-mini {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 8px;
       margin-top: 12px;
     }
 
-    .mini-badge {
-      background: rgba(255, 146, 34, 0.08);
-      border: 1.5px solid rgba(255, 146, 34, 0.7);
-      color: #f8f1ea;
-      border-radius: 10px;
-      font-size: 0.68rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+    .mini-pill {
       min-height: 54px;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       padding: 8px 6px;
+      border-radius: 10px;
+      border: 1.5px solid rgba(255, 141, 30, 0.7);
+      background: rgba(255, 141, 30, 0.08);
+      color: #f8f1eb;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
 
-    .cta-strip {
+    .badge-row {
       display: grid;
-      grid-template-columns: repeat(4, minmax(140px, 1fr));
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
       gap: 12px;
-      margin-bottom: 22px;
+      margin: 18px 0 18px;
     }
 
-    .feature-badges {
-      background: rgba(255, 143, 28, 0.06);
-      border: 2px solid rgba(255, 143, 28, 0.6);
+    .badge {
+      min-height: 82px;
       border-radius: 16px;
-      min-height: 84px;
+      border: 2px solid rgba(255, 141, 30, 0.72);
+      background: rgba(255, 141, 30, 0.06);
+      box-shadow: inset 0 0 18px rgba(255, 141, 30, 0.04);
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 8px 14px;
-      color: #fff7f0;
-      font-weight: 700;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      color: #fff9f3;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
-      font-size: 0.7rem;
       text-align: center;
-      box-shadow: inset 0 0 18px rgba(255, 143, 28, 0.08);
+      padding: 8px 10px;
     }
 
-    .feature-badges .symbol {
+    .badge .icon {
       font-size: 1.5rem;
-      filter: drop-shadow(0 0 8px rgba(255, 164, 78, 0.5));
+      color: #ffb564;
     }
 
-    .priority-header {
+    .header-row {
       display: flex;
       align-items: center;
       gap: 12px;
-      margin: 12px 0 16px;
-      padding: 0 8px;
+      margin: 12px 0 18px;
+      padding: 0 2px;
     }
 
-    .priority-header .title {
+    .header-row .h1 {
       flex: 1;
-      font-size: clamp(2rem, 2.2vw, 3.2rem);
-      line-height: 1.1;
+      font-size: clamp(2.2rem, 2.5vw, 3.1rem);
+      line-height: 1.08;
       font-weight: 900;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      color: #ff8d1f;
-      text-shadow: 0 0 18px rgba(255, 145, 44, 0.25);
+      color: var(--orange);
+      text-shadow: 0 0 18px rgba(255, 145, 42, 0.22);
     }
 
-    .priority-header .tabs {
+    .header-row .tabs {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       flex-wrap: wrap;
       justify-content: flex-end;
-      align-items: center;
-      color: #f0f2f7;
-      font-weight: 700;
-      font-size: 0.78rem;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
     }
 
-    .priority-header .tabs span {
+    .tab {
       padding: 8px 12px;
       border-radius: 999px;
-      border: 1px solid rgba(255, 143, 28, 0.5);
-      background: rgba(255, 143, 28, 0.06);
+      border: 1px solid rgba(255, 141, 30, 0.7);
+      background: rgba(255, 141, 30, 0.05);
+      color: #f0f4ff;
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
-    .service-grid {
+    .services {
       display: grid;
       grid-template-columns: repeat(5, minmax(180px, 1fr));
-      gap: 16px 14px;
-      margin-bottom: 30px;
+      gap: 14px 12px;
+      margin-bottom: 26px;
     }
 
-    .service-card {
+    .card {
       position: relative;
-      min-height: 176px;
-      background: linear-gradient(180deg, rgba(12, 20, 31, 0.94), rgba(10, 16, 24, 0.96));
-      border: 2px solid rgba(255, 143, 28, 0.7);
+      min-height: 190px;
       border-radius: 18px;
-      padding: 14px 12px 12px;
-      box-shadow: inset 0 0 22px rgba(255,143,28,0.04), 0 10px 18px rgba(0,0,0,0.2);
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      background: linear-gradient(180deg, rgba(11, 18, 28, 0.96), rgba(8, 13, 20, 0.96));
+      border: 2px solid rgba(255, 141, 30, 0.68);
+      box-shadow: inset 0 0 18px rgba(255, 141, 30, 0.05), 0 10px 18px rgba(0,0,0,0.18);
+      padding: 16px 12px 12px;
+      overflow: hidden;
     }
 
-    .service-card:hover {
-      transform: translateY(-2px);
-      box-shadow: inset 0 0 26px rgba(255,143,28,0.08), 0 18px 24px rgba(0,0,0,0.28);
+    .card.primary {
+      border-color: rgba(255, 177, 82, 1);
+      box-shadow: 0 0 0 2px rgba(255,141,30,0.22), 0 0 18px rgba(255,141,30,0.18), inset 0 0 18px rgba(255, 177, 82, 0.08);
+      background: linear-gradient(180deg, rgba(18, 18, 27, 0.98), rgba(11, 17, 25, 0.96));
     }
 
-    .service-card.priority {
-      border-color: rgba(255, 174, 78, 1);
-      box-shadow: 0 0 0 2px rgba(255,143,28,0.28), 0 0 26px rgba(255,143,28,0.2), inset 0 0 22px rgba(255,160,70,0.08);
-      transform: scale(1.02);
-      background: linear-gradient(180deg, rgba(17, 18, 31, 0.98), rgba(11, 17, 26, 0.96));
-    }
-
-    .service-card .num {
+    .num {
       position: absolute;
-      top: 12px;
-      left: 14px;
+      top: 10px;
+      left: 12px;
       width: 34px;
       height: 34px;
+      display: grid;
+      place-items: center;
       border-radius: 10px;
-      display: grid;
-      place-items: center;
-      background: linear-gradient(180deg, #ff9d33, #ff7402);
-      color: #1a1209;
-      font-size: 1.15rem;
+      background: linear-gradient(180deg, #ffb155, #ff7d0a);
+      color: #1a150f;
+      font-size: 1.08rem;
       font-weight: 900;
-      box-shadow: 0 0 14px rgba(255, 152, 59, 0.35);
+      box-shadow: 0 0 16px rgba(255, 155, 58, 0.25);
     }
 
-    .service-card .icon {
+    .icon {
       position: absolute;
-      right: 10px;
+      right: 12px;
       top: 10px;
-      width: 54px;
-      height: 54px;
-      border-radius: 14px;
+      width: 56px;
+      height: 56px;
       display: grid;
       place-items: center;
-      background: rgba(255, 143, 28, 0.12);
-      border: 1px solid rgba(255, 143, 28, 0.5);
+      border-radius: 16px;
+      border: 1px solid rgba(255, 141, 30, 0.6);
+      background: rgba(255, 141, 30, 0.08);
       font-size: 2rem;
-      line-height: 1;
-      box-shadow: inset 0 0 18px rgba(255, 143, 28, 0.08);
+      box-shadow: inset 0 0 16px rgba(255, 141, 30, 0.06);
     }
 
-    .service-card .label {
+    .text {
       position: absolute;
       left: 14px;
       right: 14px;
-      bottom: 14px;
-      font-size: 0.95rem;
-      line-height: 1.35;
-      color: #f4f7fd;
-      font-weight: 700;
+      bottom: 12px;
+      color: #f6faff;
+      line-height: 1.3;
+      font-weight: 800;
       letter-spacing: -0.02em;
+      font-size: 0.94rem;
     }
 
-    .service-card .label small {
+    .text small {
       display: block;
-      color: #dde8ff;
-      font-size: 0.78rem;
+      margin-top: 5px;
       font-weight: 500;
+      color: #dfe9ff;
+      font-size: 0.75rem;
       line-height: 1.4;
-      margin-top: 4px;
     }
 
-    .service-card .label strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .bottom-bar {
+    .footer-strip {
       display: grid;
-      grid-template-columns: 1.3fr 1.3fr 1.3fr 1fr;
+      grid-template-columns: 1.25fr 1.25fr 1.25fr 1.25fr;
       gap: 12px;
-      margin-top: 12px;
-      margin-bottom: 26px;
-      padding-top: 8px;
+      margin-top: 18px;
+      margin-bottom: 18px;
     }
 
-    .action-box {
-      border: 2px solid rgba(255, 143, 28, 0.7);
-      border-radius: 18px;
-      background: rgba(255, 143, 28, 0.06);
-      min-height: 92px;
+    .action {
+      min-height: 82px;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 12px;
-      color: #fef8f2;
-      padding: 12px 18px;
-      box-shadow: inset 0 0 18px rgba(255, 143, 28, 0.03);
+      padding: 10px 12px;
+      border-radius: 18px;
+      border: 2px solid rgba(255, 141, 30, 0.7);
+      background: rgba(255, 141, 30, 0.06);
+      box-shadow: inset 0 0 18px rgba(255, 141, 30, 0.04);
     }
 
-    .action-box .big {
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      font-size: clamp(1.05rem, 1.5vw, 1.85rem);
+    .action .symbol {
+      font-size: 2rem;
+      color: #ffbe69;
+    }
+
+    .action .copy {
       line-height: 1.1;
     }
 
-    .action-box .small {
-      font-size: 0.8rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+    .action .copy .small {
+      display: block;
+      font-size: 0.68rem;
       font-weight: 700;
-      color: #ffd6a2;
+      color: #ffd7a3;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
-    .action-box .symbol {
-      font-size: 2.2rem;
-      color: #ffb567;
-      text-shadow: 0 0 12px rgba(255, 155, 58, 0.3);
+    .action .copy .big {
+      display: block;
+      margin-top: 4px;
+      font-size: clamp(0.9rem, 1.2vw, 1.5rem);
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #fffaf5;
     }
 
-    .info-strip {
+    .meta-row {
       display: grid;
-      grid-template-columns: repeat(4, minmax(180px, 1fr));
+      grid-template-columns: repeat(4, minmax(170px, 1fr));
       gap: 12px;
-      padding-top: 4px;
+      margin-top: 8px;
     }
 
-    .info-item {
-      border: 2px solid rgba(255, 143, 28, 0.72);
-      background: rgba(7, 14, 22, 0.9);
+    .meta-item {
+      min-height: 88px;
+      border: 2px solid rgba(255, 141, 30, 0.72);
       border-radius: 18px;
-      min-height: 92px;
+      background: rgba(12, 18, 29, 0.96);
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 10px 12px;
-      color: #f5f6fa;
-      font-weight: 800;
+      padding: 8px 10px;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
       text-align: center;
-      font-size: 0.74rem;
+      color: #f6f8ff;
+      font-weight: 800;
+      font-size: 0.67rem;
+      letter-spacing: 0.04em;
     }
 
-    .info-item .icon {
-      font-size: 1.7rem;
-      color: #ffb467;
+    .meta-item .mini {
+      font-size: 1.6rem;
+      color: #ffb667;
     }
 
-    .info-item strong {
-      color: #fff9f0;
+    .meta-item strong {
       display: block;
-      font-size: 0.9rem;
+      color: #fffaf5;
+      font-size: 0.84rem;
       letter-spacing: 0.02em;
+      margin-top: 2px;
     }
 
-    .cta-call {
-      font-size: clamp(2rem, 2.4vw, 3rem);
-      line-height: 1.1;
-      font-weight: 900;
-      letter-spacing: -0.03em;
-      text-transform: uppercase;
+    .city-scape {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 260px;
+      background: linear-gradient(180deg, rgba(5, 11, 18, 0) 0%, rgba(5, 11, 18, 0.52) 24%, rgba(6, 10, 15, 0.95) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .city-scape::before,
+    .city-scape::after {
+      content: "";
+      position: absolute;
+      left: -5%;
+      right: -5%;
+      bottom: 0;
+      height: 82%;
+    }
+
+    .city-scape::before {
+      background:
+        linear-gradient(180deg, rgba(255,150,40,0.12), rgba(255,150,40,0.02)),
+        linear-gradient(90deg, transparent 0 7%, rgba(255, 159, 83, 0.12) 7% 9%, transparent 9% 15%, rgba(255,159,83,0.1) 15% 17%, transparent 17% 100%);
+      clip-path: polygon(0 100%, 0 58%, 7% 58%, 7% 30%, 10% 30%, 10% 58%, 15% 58%, 15% 25%, 23% 25%, 23% 60%, 27% 60%, 27% 34%, 34% 34%, 34% 68%, 40% 68%, 40% 20%, 47% 20%, 47% 62%, 52% 62%, 52% 18%, 59% 18%, 59% 60%, 66% 60%, 66% 26%, 70% 26%, 70% 66%, 77% 66%, 77% 34%, 82% 34%, 82% 62%, 88% 62%, 88% 22%, 93% 22%, 93% 58%, 100% 58%, 100% 100%);
+    }
+
+    .city-scape::after {
+      background-image:
+        linear-gradient(180deg, rgba(255, 154, 62, 0.5) 0 3px, transparent 3px),
+        linear-gradient(90deg, rgba(255, 154, 62, 0.5) 0 3px, transparent 3px);
+      background-size: 82px 32px;
+      background-position: bottom left;
+      opacity: 0.42;
+      filter: blur(1px);
     }
 
     @media (max-width: 1180px) {
       .top-row { grid-template-columns: 1fr 1fr; }
-      .top-tag { grid-column: span 2; max-width: 100%; }
-      .service-grid { grid-template-columns: repeat(3, minmax(180px, 1fr)); }
-      .bottom-bar { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
-      .info-strip { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
+      .phone-box { grid-column: 1 / -1; max-width: 100%; }
+      .services { grid-template-columns: repeat(3, minmax(180px, 1fr)); }
+      .footer-strip { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
+      .meta-row { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
     }
 
     @media (max-width: 760px) {
       body { padding: 10px; }
-      .content { padding: 18px 18px 26px; }
+      .content { padding: 16px 16px 20px; }
       .top-row { grid-template-columns: 1fr; }
-      .top-tag { grid-column: auto; }
-      .cta-strip { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
-      .service-grid { grid-template-columns: repeat(2, minmax(150px, 1fr)); }
-      .priority-header { flex-direction: column; align-items: flex-start; }
-      .priority-header .tabs { justify-content: flex-start; }
-      .bottom-bar, .info-strip { grid-template-columns: 1fr; }
+      .phone-box { grid-column: auto; }
+      .badge-row { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+      .services { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+      .header-row { flex-direction: column; align-items: flex-start; }
+      .header-row .tabs { justify-content: flex-start; }
+      .footer-strip, .meta-row { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -556,245 +520,243 @@
   <div class="poster">
     <div class="content">
       <div class="top-row">
-        <div class="brand-wrap">
-          <h1 class="brand">Metro <span>Mate</span></h1>
-          <div class="headline">One Call. All Solutions.</div>
+        <div class="brand-block">
+          <h1 class="brand">Metro<span class="second">Mate</span></h1>
+          <div class="tagline">One Call. All Solutions.</div>
         </div>
 
-        <div class="top-cta">
-          <div class="top-cta-inner">
+        <div class="promo-box">
+          <div class="promo-inner">
             <strong>One Number</strong>
             Unlimited Solutions
           </div>
         </div>
 
-        <div class="top-tag">
-          <div class="mini-panel phone">
-            <div class="mini-label">Call / WhatsApp</div>
-            <div class="mini-number">97274 13309</div>
-            <div class="mini-labels">
-              <div class="mini-badge">Verified</div>
-              <div class="mini-badge">24/7</div>
-              <div class="mini-badge">Trusted</div>
-            </div>
+        <div class="phone-box">
+          <div class="phone-tag">Call / WhatsApp</div>
+          <div class="phone-number">97274 13309</div>
+          <div class="phone-mini">
+            <div class="mini-pill">Verified</div>
+            <div class="mini-pill">24/7</div>
+            <div class="mini-pill">Trusted</div>
           </div>
         </div>
       </div>
 
-      <div class="cta-strip">
-        <div class="feature-badges"><span class="symbol">✓</span> Trusted Professionals</div>
-        <div class="feature-badges"><span class="symbol">⏱</span> Quick Response</div>
-        <div class="feature-badges"><span class="symbol">₹</span> Affordable</div>
-        <div class="feature-badges"><span class="symbol">🤝</span> Business Verified</div>
+      <div class="badge-row">
+        <div class="badge"><span class="icon">✓</span> Trusted Professionals</div>
+        <div class="badge"><span class="icon">⏱</span> Quick Response</div>
+        <div class="badge"><span class="icon">₹</span> Affordable</div>
+        <div class="badge"><span class="icon">🤝</span> Trusted by Businesses</div>
       </div>
 
-      <div class="priority-header">
-        <div class="title">30 Priority Services at Launch</div>
+      <div class="header-row">
+        <div class="h1">30 Priority Services at Launch</div>
         <div class="tabs">
-          <span>Residential</span>
-          <span>Commercial</span>
-          <span>Corporate</span>
+          <div class="tab">Residential</div>
+          <div class="tab">Commercial</div>
+          <div class="tab">Corporate</div>
         </div>
       </div>
 
-      <div class="service-grid">
-        <div class="service-card priority">
+      <div class="services">
+        <div class="card primary">
           <div class="num">1</div>
           <div class="icon">📶</div>
-          <div class="label"><strong>Utility Service</strong><small>Recharge<br />Mobile, DTH, Electricity, Water, Gas &amp; More</small></div>
+          <div class="text">Utility Service<small>Recharge<br />Mobile, DTH, Electricity, Water, Gas &amp; More</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">2</div>
           <div class="icon">🏛️</div>
-          <div class="label"><strong>Shareholding</strong><small>Referral Revenue<br />Refer Businesses &amp; Earn</small></div>
+          <div class="text">Shareholding<small>Referral Revenue<br />Refer Businesses &amp; Earn</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">3</div>
           <div class="icon">🍽️</div>
-          <div class="label"><strong>Restaurant Offers</strong><small>Dine-in, Takeaway, Delivery<br />Deals &amp; Discounts</small></div>
+          <div class="text">Restaurant Offers<small>Dine-in, Takeaway, Delivery<br />Deals &amp; Discounts</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">4</div>
           <div class="icon">🚗</div>
-          <div class="label"><strong>Cab Drivers</strong><small>(Rapido)<br />Ride &amp; Earn Support</small></div>
+          <div class="text">Cab Drivers<small>(Rapido)<br />Ride &amp; Earn Support</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">5</div>
           <div class="icon">🛺</div>
-          <div class="label"><strong>Rickshaw Drivers</strong><small>(Rapido)<br />Auto Ride Support</small></div>
+          <div class="text">Rickshaw Drivers<small>(Rapido)<br />Auto Ride Support</small></div>
         </div>
 
-        <div class="service-card">
+        <div class="card">
           <div class="num">6</div>
           <div class="icon">✈️</div>
-          <div class="label"><strong>Tours &amp; Travel</strong><small>Flights, Hotels, Holiday<br />Packages &amp; Travel Support</small></div>
+          <div class="text">Tours &amp; Travel<small>Flights, Hotels, Holiday<br />Packages &amp; Travel Support</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">7</div>
-          <div class="icon">🚘</div>
-          <div class="label"><strong>Private Taxi Service</strong><small>Local, Outstation &amp; Airport Transfers</small></div>
+          <div class="icon">🚕</div>
+          <div class="text">Private Taxi Service<small>Local, Outstation &amp; Airport Transfers</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">8</div>
           <div class="icon">💇</div>
-          <div class="label"><strong>Beauty Parlour Service</strong><small>Skin, Hair, Makeup<br />and Beauty Care</small></div>
+          <div class="text">Beauty Parlour Service<small>Skin, Hair, Makeup<br />and Beauty Care</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">9</div>
           <div class="icon">💃</div>
-          <div class="label"><strong>Salons and Parlour Service</strong><small>Haircut, Styling, Spa,<br />Bridal &amp; Grooming</small></div>
+          <div class="text">Salons and Parlour Service<small>Haircut, Styling, Spa,<br />Bridal &amp; Grooming</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">10</div>
           <div class="icon">🛠️</div>
-          <div class="label"><strong>Plumber Service</strong><small>Installation, Repair &amp;<br />Maintenance</small></div>
+          <div class="text">Plumber Service<small>Installation, Repair &amp;<br />Maintenance</small></div>
         </div>
 
-        <div class="service-card">
+        <div class="card">
           <div class="num">11</div>
           <div class="icon">👷</div>
-          <div class="label"><strong>Electrician Service</strong><small>Wiring, Installation,<br />Repair &amp; Maintenance</small></div>
+          <div class="text">Electrician Service<small>Wiring, Installation,<br />Repair &amp; Maintenance</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">12</div>
           <div class="icon">❄️</div>
-          <div class="label"><strong>AC Repair and Service</strong><small>Repair &amp; Maintenance<br />for Home &amp; Office</small></div>
+          <div class="text">AC Repair and Service<small>Repair &amp; Maintenance<br />for Home &amp; Office</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">13</div>
           <div class="icon">🚚</div>
-          <div class="label"><strong>Courier Service</strong><small>Local, Domestic &amp;<br />International Delivery</small></div>
+          <div class="text">Courier Service<small>Local, Domestic &amp;<br />International Delivery</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">14</div>
           <div class="icon">🚛</div>
-          <div class="label"><strong>Logistics Service</strong><small>Intra City, Inter State,<br />Cargo &amp; Transport</small></div>
+          <div class="text">Logistics Service<small>Intra City, Inter State,<br />Cargo &amp; Transport</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">15</div>
           <div class="icon">📣</div>
-          <div class="label"><strong>Digital Marketing Service</strong><small>Social Media, SEO, Ads<br />&amp; Lead Generation</small></div>
+          <div class="text">Digital Marketing Service<small>Social Media, SEO, Ads<br />&amp; Lead Generation</small></div>
         </div>
 
-        <div class="service-card">
+        <div class="card">
           <div class="num">16</div>
           <div class="icon">🛡️</div>
-          <div class="label"><strong>LIC Insurance</strong><small>Life Insurance Plans<br />&amp; Financial Protection</small></div>
+          <div class="text">LIC Insurance<small>Life Insurance Plans<br />&amp; Financial Protection</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">17</div>
           <div class="icon">💻</div>
-          <div class="label"><strong>Apple &amp; Windows</strong><small>Laptop, MacBook, iMac<br />Repair &amp; Maintenance</small></div>
+          <div class="text">Apple &amp; Windows<small>Laptop, MacBook, iMac<br />Repair &amp; Maintenance</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">18</div>
           <div class="icon">📱</div>
-          <div class="label"><strong>Mobile Selling Service</strong><small>New &amp; Used Mobile Phones<br />and Accessories</small></div>
+          <div class="text">Mobile Selling Service<small>New &amp; Used Mobile Phones<br />and Accessories</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">19</div>
           <div class="icon">📲</div>
-          <div class="label"><strong>Mobile Repair Service</strong><small>Screen, Battery, Software<br />&amp; Hardware Repair</small></div>
+          <div class="text">Mobile Repair Service<small>Screen, Battery, Software<br />&amp; Hardware Repair</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">20</div>
           <div class="icon">📄</div>
-          <div class="label"><strong>Taxing ITR Services</strong><small>Income Tax Return Filing<br />&amp; Tax Consultation</small></div>
+          <div class="text">Taxing ITR Services<small>Income Tax Return Filing<br />&amp; Tax Consultation</small></div>
         </div>
 
-        <div class="service-card">
+        <div class="card">
           <div class="num">21</div>
           <div class="icon">🧾</div>
-          <div class="label"><strong>Placement Services</strong><small>Job Placement, Career<br />Support &amp; Hiring Solutions</small></div>
+          <div class="text">Placement Services<small>Job Placement, Career<br />Support &amp; Hiring Solutions</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">22</div>
           <div class="icon">📑</div>
-          <div class="label"><strong>Resume and Collab Services</strong><small>Resume Writing,<br />Professional Profiles</small></div>
+          <div class="text">Resume and Collab Services<small>Resume Writing,<br />Professional Profiles</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">23</div>
           <div class="icon">🧴</div>
-          <div class="label"><strong>FMCG Stockist &amp; Distributor Services</strong><small>Groceries, Food Products<br />Supply &amp; Distribution</small></div>
+          <div class="text">FMCG Stockist &amp; Distributor Services<small>Groceries, Food Products<br />Supply &amp; Distribution</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">24</div>
           <div class="icon">🚜</div>
-          <div class="label"><strong>Two Wheeler Sales</strong><small>New &amp; Used Bikes, Repair,<br />Service &amp; Spare Parts</small></div>
+          <div class="text">Two Wheeler Sales<small>New &amp; Used Bikes, Repair,<br />Service &amp; Spare Parts</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">25</div>
           <div class="icon">🚗</div>
-          <div class="label"><strong>Four Wheeler Sales</strong><small>New &amp; Used Cars, Repair,<br />Service &amp; Spare Parts</small></div>
+          <div class="text">Four Wheeler Sales<small>New &amp; Used Cars, Repair,<br />Service &amp; Spare Parts</small></div>
         </div>
 
-        <div class="service-card">
+        <div class="card">
           <div class="num">26</div>
           <div class="icon">🧰</div>
-          <div class="label"><strong>Tiffin Sellers</strong><small>Home-style Meal<br />Supply &amp; Delivery</small></div>
+          <div class="text">Tiffin Sellers<small>Home-style Meal<br />Supply &amp; Delivery</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">27</div>
           <div class="icon">🛡️</div>
-          <div class="label"><strong>Security Guard Services</strong><small>Trained Security Guards<br />for Homes &amp; Events</small></div>
+          <div class="text">Security Guard Services<small>Trained Security Guards<br />for Homes &amp; Events</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">28</div>
           <div class="icon">👷</div>
-          <div class="label"><strong>Manpower Services</strong><small>Skilled &amp; Unskilled<br />Labour Supply</small></div>
+          <div class="text">Manpower Services<small>Skilled &amp; Unskilled<br />Labour Supply</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">29</div>
           <div class="icon">🍽️</div>
-          <div class="label"><strong>Catering Service</strong><small>Event Catering, Corporate<br />Catering &amp; Food Supply</small></div>
+          <div class="text">Catering Service<small>Event Catering, Corporate<br />Catering &amp; Food Supply</small></div>
         </div>
-        <div class="service-card">
+        <div class="card">
           <div class="num">30</div>
           <div class="icon">🛋️</div>
-          <div class="label"><strong>Interior Service</strong><small>Home, Office &amp; Commercial<br />Interior Design &amp; Setup</small></div>
+          <div class="text">Interior Service<small>Home, Office &amp; Commercial<br />Interior Design &amp; Setup</small></div>
         </div>
       </div>
 
-      <div class="bottom-bar">
-        <div class="action-box">
+      <div class="footer-strip">
+        <div class="action">
           <div class="symbol">☎</div>
-          <div>
-            <div class="small">One call can</div>
-            <div class="big">Change everything!</div>
+          <div class="copy">
+            <span class="small">One call can</span>
+            <span class="big">Change everything!</span>
           </div>
         </div>
-        <div class="action-box">
+        <div class="action">
           <div class="symbol">✓</div>
-          <div>
-            <div class="small">Verified</div>
-            <div class="big">Professionals</div>
+          <div class="copy">
+            <span class="small">Verified</span>
+            <span class="big">Professionals</span>
           </div>
         </div>
-        <div class="action-box">
+        <div class="action">
           <div class="symbol">⚡</div>
-          <div>
-            <div class="small">Quick Response</div>
-            <div class="big">24x7 Support</div>
+          <div class="copy">
+            <span class="small">Quick Response</span>
+            <span class="big">24x7 Support</span>
           </div>
         </div>
-        <div class="action-box">
+        <div class="action">
           <div class="symbol">₹</div>
-          <div>
-            <div class="small">Affordable</div>
-            <div class="big">Business</div>
+          <div class="copy">
+            <span class="small">Affordable</span>
+            <span class="big">Business</span>
           </div>
         </div>
       </div>
 
-      <div class="info-strip">
-        <div class="info-item"><span class="icon">🌐</span><div><strong>Website</strong>metroservices.com</div></div>
-        <div class="info-item"><span class="icon">💬</span><div><strong>LinkedIn</strong>metro-mate-services</div></div>
-        <div class="info-item"><span class="icon">📞</span><div><strong>WhatsApp</strong>97274 13309</div></div>
-        <div class="info-item"><span class="icon">✉</span><div><strong>Email</strong>support@metroservices.com</div></div>
+      <div class="meta-row">
+        <div class="meta-item"><span class="mini">🌐</span><div><strong>Website</strong>metroservices.com</div></div>
+        <div class="meta-item"><span class="mini">💬</span><div><strong>LinkedIn</strong>metro-mate-services</div></div>
+        <div class="meta-item"><span class="mini">📞</span><div><strong>WhatsApp</strong>97274 13309</div></div>
+        <div class="meta-item"><span class="mini">✉</span><div><strong>Email</strong>support@metroservices.com</div></div>
       </div>
     </div>
 
-    <div class="city-bg" aria-hidden="true"></div>
+    <div class="city-scape" aria-hidden="true"></div>
   </div>
 </body>
 </html>
