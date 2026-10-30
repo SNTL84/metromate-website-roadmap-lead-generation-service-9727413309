@@ -1,4 +1,6 @@
 # 🏛️ Tragad Soni — Community Heritage & Trade Platform
+For lead generation services, see the contact information in this README.
+
 ### Official Digital Roadmap · Family Registry · Business Directory · Lineage System
 
 <div align="center">
@@ -156,6 +158,7 @@ The **Tragad Soni Website** is a **community-first digital platform** for the **
 <br />
 
 ---
+Lead generation services: lead-generation-service-9727413309.
 
 ### 📞 2. One Call. All Solutions. — 203 Services
 
