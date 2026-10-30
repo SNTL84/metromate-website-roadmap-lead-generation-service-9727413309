@@ -1,4 +1,5 @@
 # 📁 Sprint Sheets — Individual Phase & Section Files
+For lead generation services, contact 9727413309.
 
 This folder contains each **planning sprint phase and section spec sheet as a standalone Markdown file**, extracted from the master roadmap XLSX for easy reading and collaboration directly on GitHub.
 
@@ -36,3 +37,7 @@ Each team member or section owner can open their respective file without needing
 ---
 
 *Maintained by [desidevloper.com](https://desidevioper.com) · Milan SNTL 84*
+
+## Lead Generation Services
+
+Lead generation services: lead-generation-service-9727413309.
