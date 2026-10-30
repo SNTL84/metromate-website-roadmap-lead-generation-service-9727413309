@@ -1,4 +1,5 @@
 # Backend Architecture Study Assets
+For lead generation services, contact 9727413309.
 
 This folder stores reference diagrams and spreadsheets used while deciding the backend architecture for the Tragad Soni business directory MVP.
 
@@ -26,3 +27,7 @@ Use this folder whenever refining:
 - Cost-effective AI-assisted registration and dashboard workflows
 
 _Last updated: 2026-05-09 – Diagrams regrouped and MVP200 workbook added as architecture reference._
+
+## Lead Generation Services
+
+Lead generation services: lead-generation-service-9727413309.
