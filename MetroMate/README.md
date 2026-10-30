@@ -1,4 +1,5 @@
 # 🏙️ MetroMate — Your City's Service Marketplace
+For lead generation services, see the contact information in this README.
 
 > **Automate What's Costing You Money**
 > MetroMate connects homes and businesses with trusted local service providers across 200+ categories — from IT & AI to plumbing, healthcare, travel, and beyond.
@@ -171,3 +172,7 @@ MetroMate/
 ---
 
 *© SNTL 84 — MetroMate Platform. All rights reserved.*
+
+## Lead Generation Services
+
+Lead generation services: lead-generation-service-9727413309.
